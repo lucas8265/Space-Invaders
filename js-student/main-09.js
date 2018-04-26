@@ -22,28 +22,28 @@ var __player_name;
 var __score = 0;
 
 /**** SPRITES ****/
-Crafty.sprite("./img/ship.png", {
+Crafty.sprite("img/ship.png", {
   ship: [0, 0, 32, 34]
 });
-Crafty.sprite(26, 20, "./img/enemy-1-sprite-T20x26.png", {
+Crafty.sprite(26, 20, "img/enemy-1-sprite-T20x26.png", {
   bee: [0, 0]
 });
-Crafty.sprite(6, 16, "./img/ship-bullet-T6x16.png", {
+Crafty.sprite(6, 16, "img/ship-bullet-T6x16.png", {
   bullet: [0, 0]
 });
-Crafty.sprite(60, 60, "./img/enemy-explosion-T60x60.png", {
+Crafty.sprite(60, 60, "img/enemy-explosion-T60x60.png", {
   enemy_explosion: [0, 0]
 });
-Crafty.sprite(60, 64, "./img/player-explosion-T60x64.png", {
+Crafty.sprite(60, 64, "img/player-explosion-T60x64.png", {
   player_explosion: [0, 0]
 });
 
 /**** SOUNDS ****/
-Crafty.audio.add("ship-shoot", "./snd/laser_default.wav");
-Crafty.audio.add("enemy-explode", "./snd/explosion.wav");
-Crafty.audio.add("death_Sound", "./snd/trombone.wav");
-Crafty.audio.add("punch", "./snd/punch.wav");
-Crafty.audio.add("shot", "./snd/shot.mp3");
+Crafty.audio.add("ship-shoot", "snd/laser_default.wav");
+Crafty.audio.add("enemy-explode", "snd/explosion.wav");
+Crafty.audio.add("death_Sound", "snd/trombone.wav");
+Crafty.audio.add("punch", "snd/punch.wav");
+Crafty.audio.add("shot", "snd/shot.mp3");
 /**** EVENTS ****/
 Crafty.bind('player_killed', function() {
   Crafty.audio.play("death_Sound");
