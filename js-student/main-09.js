@@ -43,7 +43,7 @@ Crafty.audio.add("ship-shoot", "snd/laser_default.wav");
 Crafty.audio.add("enemy-explode", "snd/explosion.wav");
 Crafty.audio.add("death_Sound", "snd/trombone.wav");
 Crafty.audio.add("punch", "snd/punch.wav");
-Crafty.audio.add("shot", "snd/shot.mp3");
+Crafty.audio.add("shot", "snd/Shot.mp3");
 /**** EVENTS ****/
 Crafty.bind('player_killed', function() {
   Crafty.audio.play("death_Sound");
