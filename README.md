@@ -1,3 +1,6 @@
+### Link to play
+https://lucas8265.github.io/Space-Invaders/index.html
+
 ###Links
 Fonts: http://www.1001fonts.com/video-game-fonts.html?  
 Create CSS for font: https://www.fontsquirrel.com/tools/webfont-generator
